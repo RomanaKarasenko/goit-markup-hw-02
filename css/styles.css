@@ -12,22 +12,27 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 .logoheader span {
     color: #2E2F42;
-    /* Застосування кольору до <span> всередині .logo */
 }
 
-.header-menu {
+.header-menu a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
+}
+.header-menu a:hover{
+color: #404bbf;
 }
 
-address {
+.address {
     font-style: normal;
+    color:#ffffff; 
 }
 
 .address-menu {
@@ -111,3 +116,23 @@ color: #4d5ae5;
 .logofooter span{
     color: #f4f4fd;
 }
+.btn{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+        /* Анімація зміни кольору фону */
+}
+.btn:hover {
+    background-color: #404BBF;
+}
+.btn:focus{
+    background-color: #404BBF;
+    outline: none;
+}
+    
