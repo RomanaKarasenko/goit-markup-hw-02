@@ -29,11 +29,11 @@
     transition: color 0.3s ease-in-out;
 }
 
-.header-menu-link:hover {
+.header-menu-item:hover {
     color: #404bbf; 
 }
 
-.header-menu-link:focus {
+.header-menu-item:focus {
     color: #404bbf;
 }
 
