@@ -18,7 +18,7 @@ body {
     color: #2E2F42;
 }
 
-.header-menu a {
+.header-menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -26,8 +26,12 @@ body {
     color: #2e2f42;
     text-decoration: none;
 }
-.header-menu a:hover{
+.header-menu:hover{
 color: #404bbf;
+}
+.header-menu:focus {
+background-color: #404BBF;
+outline: none;
 }
 
 .address {
@@ -125,8 +129,7 @@ color: #4d5ae5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-        /* Анімація зміни кольору фону */
+    
 }
 .btn:hover {
     background-color: #404BBF;
