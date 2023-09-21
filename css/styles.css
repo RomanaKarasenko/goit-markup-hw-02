@@ -48,11 +48,16 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
- 
-.address-menu:hover{
+.addresslink{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.addresslink:hover{
     color: #404bbf;
 }
-.address-menu:focus{
+.addresslink:focus{
     color: #404bbf;
 }
 .mainsection {
