@@ -1,46 +1,50 @@
-body {
+.body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-.logoheader {
+.logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
 }
-.logoheader span {
+
+.logo-header span {
     color: #2E2F42;
 }
 
 .header-menu {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Плавна зміна кольору при наведенні */
 }
-.header-menu:hover{
-color: #404bbf;
+
+.header-menu:hover {
+    color: #404bbf;
 }
+
 .header-menu:focus {
-background-color: #404BBF;
-outline: none;
+    background-color: #404BBF;
+    outline: none;
 }
 
 .address {
     font-style: normal;
-    color:#ffffff; 
+    color: #ffffff;
 }
 
 .address-menu {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -50,7 +54,7 @@ outline: none;
     background-color: #2e2f42;
 }
 
-h1 {
+.maintitle {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -58,7 +62,7 @@ h1 {
     color: #ffffff;
 }
 
-h2 {
+.sectiontitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -66,7 +70,7 @@ h2 {
     color: #2e2f42;
 }
 
-h3 {
+.sectionparagraph {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -98,7 +102,7 @@ h3 {
     background-color: #FFFFFF;
 }
 
-footer {
+.footer {
     background-color: #2e2f42;
 }
 
