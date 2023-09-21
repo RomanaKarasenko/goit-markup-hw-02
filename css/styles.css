@@ -1,9 +1,10 @@
 body {
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
-header-logo{
+
+.logoheader {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -12,27 +13,34 @@ header-logo{
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.logoheader span {
+    color: #2E2F42;
+    /* Застосування кольору до <span> всередині .logo */
+}
 
-header-menu{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-address{
-font-style: normal;
-}
-adress-menu{
+.header-menu {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color: #2e2f42;
 }
 
-.mainsection{
-    background-color:#2e2f42;
+address {
+    font-style: normal;
 }
+
+.address-menu {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.mainsection {
+    background-color: #2e2f42;
+}
+
 h1 {
     font-size: 56px;
     line-height: 1.07;
@@ -40,13 +48,15 @@ h1 {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-h2{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:#2e2f42;
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+
 h3 {
     font-weight: 500;
     font-size: 20px;
@@ -54,21 +64,50 @@ h3 {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.sectionthree{
-background-color: #F4F4FD;
 
+.sectionthree {
+    background-color: #F4F4FD;
 }
-.sectionthreeh{
+
+.sectionthreeh {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.lithird {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #2e2f42;
+}
+
+.footertext {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+.logofooter{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logofooter span{
+    color: #f4f4fd;
 }
